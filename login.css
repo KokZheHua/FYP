@@ -1,0 +1,86 @@
+* {
+    font-family: "Poppins";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dde5f4;
+    height: 100vh;
+    margin: 0; 
+}
+
+.screen-1 {
+    background: #f1f7fe;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center; 
+    box-shadow: 0 0 2em #e6e9f9;
+    height: 100%;
+}
+
+.screen-1 .username {
+    background: white;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 2em #e6e9f9;
+    color: #4d4d4d;
+    width: 90%; 
+}
+.screen-1 img{
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+}
+.screen-1 .password {
+    background: white;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 2em #e6e9f9;
+    color: #4d4d4d;
+    width: 90%;  
+}
+.screen-1 input {
+    outline: none;
+    border: none;
+    width: 90%;
+}
+.screen-1 .login {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #3e4684;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    box-shadow: 0 0 2em #e6e9f9;
+    width: 100%; 
+}
+.screen-1 .footer {
+    display: flex;
+    font-size: 20px;
+    color: #5e5e5e;
+    gap: 80px;
+}
+
+.screen-1 a{
+    text-decoration: none;
+}
+.login:hover {
+    background-color: #6070c7;
+}
+.footer a:hover {
+    color: #b2b3b4;
+}
+.w3-button{
+    transition: background-color 0.3s;
+}

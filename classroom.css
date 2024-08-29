@@ -1,0 +1,49 @@
+@media (min-width:993px){
+    .w3-sidebar-classroom{
+        display: block;
+    }
+}
+@media (max-width:992px){
+    .w3-sidebar-classroom{
+        display: none ;
+    }
+}
+
+.w3-sidebar-classroom{
+    height:100%;
+    width:300px;
+    background-color:#fff;
+    position:fixed;
+    z-index: 3; 
+    overflow:auto;
+}
+
+.w3-right{
+    float:right;
+}
+
+@media (max-width: 933px) {
+    .small-padding {
+        padding-top: 30px!important;
+    }
+
+    .w3-right{
+        float:left !important;
+    }
+}
+
+@media (max-width: 525px) {
+    .small-padding {
+        padding-top: 80px!important;
+    }
+}
+
+.w3-button{
+    transition: background-color 0.3s;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.flag_css {
+    border-left: 10px solid #ff5c2c!important;
+}
